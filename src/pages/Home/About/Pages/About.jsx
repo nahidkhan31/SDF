@@ -50,6 +50,22 @@ const About = () => {
           }>
           Employment & Entrepreneurship
         </NavLink>
+        <NavLink
+          to="socialInclusion"
+          end
+          className={({ isActive }) =>
+            `tab ${isActive ? "tab-active text-primary font-semibold" : ""}`
+          }>
+          Social Inclusion
+        </NavLink>
+        <NavLink
+          to="researchInnovation"
+          end
+          className={({ isActive }) =>
+            `tab ${isActive ? "tab-active text-primary font-semibold" : ""}`
+          }>
+          Research & Innovation
+        </NavLink>
       </div>
 
       {/* Render Child Route */}

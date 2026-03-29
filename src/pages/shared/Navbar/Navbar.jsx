@@ -1,5 +1,6 @@
 import React from "react";
 import { NavLink } from "react-router";
+import Logo from "../Logo/Logo";
 
 const Navbar = () => {
   const navLinkStyle = ({ isActive }) =>
@@ -39,7 +40,7 @@ const Navbar = () => {
     bg-base-100/70 backdrop-blur-md shadow-sm">
       {/* Left side: Logo */}
       <div className="navbar-start">
-        <h1>Logo SDF</h1>
+        <Logo/>
       </div>
 
       {/* Right side (lg+): menu */}
