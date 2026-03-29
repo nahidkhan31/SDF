@@ -1,7 +1,7 @@
 import React from 'react';
 import picture from '../../../assets/WhatsApp Image 2026-03-29 at 1.56.07 PM.jpeg'
 import { Link } from 'react-router';
-import { Users, Lightbulb, Link as LinkIcon } from 'lucide-react';
+// import { Users, Lightbulb, Link as LinkIcon } from 'lucide-react';
 const Logo = () => {
     return (
         <Link to="/" className="flex items-center gap-2 group">

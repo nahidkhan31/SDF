@@ -9,6 +9,7 @@ import Objectives from "../pages/Home/About/Pages/Objectives";
 import Employment from "../pages/Home/About/Pages/Employment";
 import SocialInclusion from "../pages/Home/About/Pages/SocialInclusion";
 import ResearchInnovation from "../pages/Home/About/Pages/ResearchInnovation";
+import Programs from "../pages/Home/Programs/Programs";
 export const router = createBrowserRouter([
   {
     path: "/",
@@ -52,6 +53,10 @@ export const router = createBrowserRouter([
           },
         ],
       },
+      {
+        path: "programs",
+        Component: Programs
+      }
     ],
   },
 ]);
